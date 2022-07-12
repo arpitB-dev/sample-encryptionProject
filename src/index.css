@@ -1,0 +1,31 @@
+.App > .uploadContainer , .App > .decryptContainer{
+  width: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid;
+}
+
+.App > .uploadContainer > .infoBox  {
+  margin: 1rem 0px;
+}
+
+
+.App > .uploadContainer > .infoBox > table, tr,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:10px
+}
+
+.App > .decryptContainer > button{
+  margin-top:10px
+}
+
+.App > .decryptContainer > table,tr,td{
+
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding:10px
+
+}
